@@ -11,3 +11,7 @@ Project 2:
 Project 3:
   Created a webpage displaying three different colored markers, each being a differing primary color.
   Learned about color theory and different ways to represent color values in CSS using predetermined values and functions, and optional arguments each one has. Used a combination of RGB, hexadecimal, and HSL (and their optional alphachannel arguments) to colorize each marker. 
+
+Project 4:
+  Created an interactive webpage with various input types for a registration form.
+  Learned about the various input types within HTML and validating user input with minimum/maximum response length, string patterns, and requiring responses on certain fields. Utilized pseudo-classes and attribute selectors to retrieve the last element of a specified tag and elements with a matching attribute-value pair.
