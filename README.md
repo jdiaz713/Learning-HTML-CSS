@@ -10,4 +10,4 @@ Project 2:
 
 Project 3:
   Created a webpage displaying three different colored markers, each being a differing primary color.
-  Learned about color theory and different ways to represent color values in CSS, including optional arguments. Used a combination of RGB, hexadecimal, and HSL (and their optional alphachannel arguments) to colorize each marker. 
+  Learned about color theory and different ways to represent color values in CSS using predetermined values and functions, and optional arguments each one has. Used a combination of RGB, hexadecimal, and HSL (and their optional alphachannel arguments) to colorize each marker. 
