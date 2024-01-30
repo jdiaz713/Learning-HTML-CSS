@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!-- Include mobile viewport metadata element -->
+    <meta charset-"utf-8">
+    <title>Survey Form</title>
+    <link ref="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">Restaurant Review Form</h1>
+    <p id="description">How was your visit? Let us know!</p>
+    <hr>
+    <form action="https://www.arandomwebsite.com/" id="survey-form">
+      <fieldset>
+        <p>First, let's get some information about you.</p>
+        <label for="name-label" id="name-label">Enter your name: <input type="text" id="name-label" placeholder="John Doe" required></label>
+        <label for="email-label" id="email-label">Enter your email: <input type="email" id="email-label" placeholder="john.doe@domain.com" required></label>
+        <label for="number-label" id="number-label">How many were in your party? <input type="number" id="number-label" placeholder="1-12" min="1" max="12" required></label>
+      </fieldset>
+      <fieldset>
+        <p>How would you rate your service?</p>
+        <select id="dropdown" required>
+          <option value="">(select one)</option>
+          <option value="2">Excellent</option>
+          <option value="1">Average</option>
+          <option value="0">Poor</option>
+        </select>
+        <p>How did you hear about us?</p>
+        <label><input type="radio" name="discovery" required> Twitter</label>
+        <label><input type="radio" name="discovery" required> Facebook</label>
+        <label><input type="radio" name="discovery" required> Friend</label>
+        <label><input type="radio" name="discovery" required> Other</label>
+        <p>How would you describe the service?</p>
+        <label>Food was delicious <input type="checkbox"></label>
+        <label>Friendly and welcoming staff <input type="checkbox"></label>
+        <label>Clean and professional environment <input type="checkbox"></label>
+      </fieldset>
+      <fieldset>
+        <p>Any additional comments? Tell us!</p>
+        <textarea rows="4" cols="40" placeholder="Type here"></textarea>
+        </fieldset>
+        <hr>
+        <p>Press submit to complete the form.</p>
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
