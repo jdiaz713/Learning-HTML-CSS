@@ -19,3 +19,7 @@ Assignment 4:
 Assignment 5:
   Created a webpage of a Rothko painting.
   Learned about the CSS Box Model and how each component affects the element(s). Utilized both filter and transform CSS properties to blur and rotate elements.
+
+Assignment 6:
+  Created a webpage of a cat photo gallery.
+  Learned about flexboxes and their utilization with a photo gallery. Tested various flex directions and their effects on their items, as well as their alignment on both the main and cross axes.
