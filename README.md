@@ -1,17 +1,17 @@
 All content from this repository was provided by https://www.freecodecamp.org/learn/2022/responsive-web-design/.
 
-Project 1:
+Assignment 1:
   Created a basic webpage displaying pictures of cats and lists of things cats love and hate. Also includes a form surveying information of a given user's cat.
   Learned the basics of HTML, such as tags, elements, attributes, and declaration.
 
-Project 2:
+Assignment 2:
   Created and styled another basic webpage of a cafe menu, displaying item names along with their prices.
   Further utilized basic tags and attributes, and learned to link stylesheets to a HTML file. Learned basic selectors and pseudo-classes to stylize elements both generally and at certain states.
 
-Project 3:
+Assignment 3:
   Created a webpage displaying three different colored markers, each being a differing primary color.
   Learned about color theory and different ways to represent color values in CSS using predetermined values and functions, and optional arguments each one has. Used a combination of RGB, hexadecimal, and HSL (and their optional alphachannel arguments) to colorize each marker. 
 
-Project 4:
+Assignment 4:
   Created an interactive webpage with various input types for a registration form.
   Learned about the various input types within HTML and validating user input with minimum/maximum response length, string patterns, and requiring responses on certain fields. Utilized pseudo-classes and attribute selectors to retrieve the last element of a specified tag and elements with a matching attribute-value pair.
