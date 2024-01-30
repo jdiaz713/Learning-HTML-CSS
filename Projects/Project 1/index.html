@@ -15,9 +15,9 @@
     <form action="https://www.arandomwebsite.com/" id="survey-form">
       <fieldset>
         <p>First, let's get some information about you.</p>
-        <label for="name-label" id="name-label">Enter your name: <input type="text" id="name-label" placeholder="John Doe" required></label>
-        <label for="email-label" id="email-label">Enter your email: <input type="email" id="email-label" placeholder="john.doe@domain.com" required></label>
-        <label for="number-label" id="number-label">How many were in your party? <input type="number" id="number-label" placeholder="1-12" min="1" max="12" required></label>
+        <label for="name-label" id="name-label">Enter your name: <input type="text" id="name" placeholder="John Doe" required></label>
+        <label for="email-label" id="email-label">Enter your email: <input type="email" id="email" placeholder="john.doe@domain.com" required></label>
+        <label for="number-label" id="number-label">How many were in your party? <input type="number" id="number" placeholder="1-12" min="1" max="12" required></label>
       </fieldset>
       <fieldset>
         <p>How would you rate your service?</p>
@@ -28,14 +28,14 @@
           <option value="0">Poor</option>
         </select>
         <p>How did you hear about us?</p>
-        <label><input type="radio" name="discovery" required> Twitter</label>
-        <label><input type="radio" name="discovery" required> Facebook</label>
-        <label><input type="radio" name="discovery" required> Friend</label>
-        <label><input type="radio" name="discovery" required> Other</label>
+        <label><input type="radio" name="discovery" value="1" required> Twitter</label>
+        <label><input type="radio" name="discovery" value="2" required> Facebook</label>
+        <label><input type="radio" name="discovery" value="3" required> Friend</label>
+        <label><input type="radio" name="discovery" value="4" required> Other</label>
         <p>How would you describe the service?</p>
-        <label>Food was delicious <input type="checkbox"></label>
-        <label>Friendly and welcoming staff <input type="checkbox"></label>
-        <label>Clean and professional environment <input type="checkbox"></label>
+        <label>Food was delicious <input type="checkbox" value="1"></label>
+        <label>Friendly and welcoming staff <input type="checkbox" value="2"></label>
+        <label>Clean and professional environment <input type="checkbox" value="3"></label>
       </fieldset>
       <fieldset>
         <p>Any additional comments? Tell us!</p>
