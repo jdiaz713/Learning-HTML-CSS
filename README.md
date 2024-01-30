@@ -15,3 +15,7 @@ Assignment 3:
 Assignment 4:
   Created an interactive webpage with various input types for a registration form.
   Learned about the various input types within HTML and validating user input with minimum/maximum response length, string patterns, and requiring responses on certain fields. Utilized pseudo-classes and attribute selectors to retrieve the last element of a specified tag and elements with a matching attribute-value pair.
+
+Assignment 5:
+  Created a webpage of a Rothko painting.
+  Learned about the CSS Box Model and how each component affects element(s). Utilized both filter and transform CSS properties to blur and rotate elements.
