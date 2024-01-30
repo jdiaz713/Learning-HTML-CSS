@@ -1,0 +1,89 @@
+/* Element-level styling */
+
+* {
+  font-family: Trebuchet MS;
+}
+
+body {
+  /*background-color: #0f0f1f;*/
+  background: linear-gradient(180deg, #0f0f1f 50%, #0a0a14);
+  margin: 50px 0;
+}
+
+hr {
+  opacity: 0.25;
+  width: 50%;
+  min-width: 500px;
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+
+h1 {
+  font-family: Arial;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  color: #cccccc;
+  text-align: center;
+}
+
+label {
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  color: white;
+  margin-bottom: 8px;
+}
+label:last-of-type {
+  margin-bottom: 0;
+}
+
+fieldset {
+  width: 50%;
+  min-width: 400px;
+  max-width: 600px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0 0 8px;
+  background-color: #1a1b33;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 0 16px 16px;
+  margin: 0 auto 16px auto;
+}
+
+input, select, textarea {
+  border: 1px solid black;
+  padding: 2px 4px 2px;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  background: linear-gradient(180deg, rgb(100, 255, 100), rgb(70, 200, 70) 100%);
+  box-shadow: rgb(25, 75, 25) 0 0 12px;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  width: 150px;
+  padding: 6px;
+}
+
+textarea {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Id-level styling */
+
+#description {
+  font-size: 16px;
+  margin-top: -1em;
+  margin-bottom: 2em;
+}
+
+#dropdown {
+  display: block;
+  margin: 0 auto;
+}
