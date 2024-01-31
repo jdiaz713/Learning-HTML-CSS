@@ -23,3 +23,7 @@ Assignment 5:
 Assignment 6:
   Created a webpage of a cat photo gallery.
   Learned about flexboxes and their utilization with a photo gallery. Tested various flex directions and their effects on their items, as well as their alignment on both the main and cross axes.
+
+Assignment 7:
+  Created a webpage that replicates the design of a nutrition label.
+  Utilized previous knowledge of flexboxes and span tags to slice elements and align their contents along both ends of the parent container. Used a new pseudo-class ':not()' to select elements that do not meet a provided condition.
